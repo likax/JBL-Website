@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/simplelightbox.min.css" />
+    <script src="https://kit.fontawesome.com/4d62024606.js"></script>
+    <link rel="icon" type="image/x-icon" href="src/Pics/logo-icon.png" />
+    <title>JBL Website</title>
+  </head>
+  <body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <img src="src/Pics/logo.png" alt="" class="logo" />
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="main">
+      <div class="container">
+        <div>
+          <h1>
+            Premium speakers
+          </h1>
+          <p>
+            With long-lasting battery life and Bluetooth technology, JBL
+            portable wireless speakers are the best way to enjoy your music away
+            from home.
+          </p>
+          <a href="#about" class="btn">Explore More</a>
+        </div>
+        <img src="src/Pics/jbl.png" alt="" />
+      </div>
+    </section>
+
+    <section id="about" class="secondary">
+      <div class="overlay">
+        <div class="secondary-inner">
+          <h3>Loud & Clear</h3>
+          <h2>The largest selection of bluetooth speakers</h2>
+          <p>
+            Get the best sound for your entertainment needs with JBL speakers,
+            headphones & audio systems. Check out our full range of products at
+            JBL online store.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="gallery-2">
+        <a href="src/Pics/1.jpg"
+          ><img src="src/Pics/1.jpg" alt="" class="big"
+        /></a>
+        <a href="src/Pics/2.jpg"
+          ><img src="src/Pics/2.jpg" alt="" class="big"
+        /></a>
+        <a href="src/Pics/3.jpg"
+          ><img src="src/Pics/3.jpg" alt="" class="big"
+        /></a>
+        <a href="src/Pics/4.jpg"
+          ><img src="src/Pics/4.jpg" alt="" class="big"
+        /></a>
+        <a href="src/Pics/5.jpg"
+          ><img src="src/Pics/5.jpg" alt="" class="big"
+        /></a>
+        <a href="src/Pics/6.jpg"
+          ><img src="src/Pics/6.jpg" alt="" class="big"
+        /></a>
+      </div>
+    </section>
+    <footer id="contact" class="footer1 py-4 bg-primary">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">JBL Is The Future</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.facebook.com/JBL/">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>Useful Topics</h3>
+          <ul>
+            <li><a href="#">Our Stories</a></li>
+            <li><a href="#">Our Clients</a></li>
+            <li><a href="#">Why Us?</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>
+            For More Information Please Subscribe 
+          </p>
+          <form
+            class="mt-1"
+            name="email-form"
+            method="POST"
+            data-netlify="true"
+          >
+            <div class="email-form">
+              <span class="form-control-wrap"
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail"/></span
+              ><button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function() {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+  </body>
+</html>
